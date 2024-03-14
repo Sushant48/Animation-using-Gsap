@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: uppercase;
+    
+}
+.nav>img{
+    height: 40px;
+}
+.nav-part1{
+    display: flex;
+    gap: 30px;
+}
+.nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-part2 button{
+    color: black;
+    padding: 16px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0px;
+    margin-top: 50px;
+}
+.text button{
+    height: 10vh;
+    width: 17vw;
+    background-color: #7E3936;
+    border: none;
+    border-radius: 50px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.text :nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+}
+.text h1{
+    font-size: 150px;
+    letter-spacing: 0.4vw;
+    line-height: 150px;
+    z-index: 2;
+}
+.main>img{
+    height: 250px;
+    width: 200px;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10px;
+}
+.main>img:nth-child(3){
+    top: 20%;
+    left: 5%;
+}
+.main>img:nth-child(4){
+    top: 13%;
+    right: 15%;
+}
+.main>img:nth-child(5){
+    left: 20%;
+    bottom: 15%;
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+}
+.main>img:nth-child(6){
+    right: 5%;
+    bottom: 15%;
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+}
+.main>h3{
+    position: absolute;
+    left: 43%;
+    bottom: 15%;
+    font-size: 20px;
+    font-weight: 100;
+}
+.div{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
